@@ -193,3 +193,72 @@ nav ul li a{
    line-height: 20px;
    text-align: 15px;
 }
+
+
+
+
+
+/*-------CESTILOS PARA LA ULTIMA PARTE DE NOTICIAS DEPORTIVASSSSS--------*/
+
+.pagina2 {
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.CajaNoticias {
+    display: flex;
+    gap: 15px; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.ListaNoticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    width: 18%; 
+}
+
+.img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ListaNoticias:nth-child(1) .img {
+    background-image: url('https://www.directvsports.com/__export/1717093002530/sites/dsports/img/2024/05/30/whatsapp_image_2024-05-30_at_15_15_55.jpeg_1906548453.jpeg');
+}
+
+.ListaNoticias:nth-child(2) .img {
+    background-image: url('https://www.diez.hn/binrepository/1200x680/0c0/0d0/none/3014757/IMJE/lautaro_4789255_20230616152229.jpg');
+}
+
+.ListaNoticias:nth-child(3) .img {
+    background-image: url('https://a1.elespanol.com/cronicaglobal/2024/05/09/culemania/primer-equipo/853924707_12906426_1024x576.jpg');
+}
+
+.ListaNoticias:nth-child(4) .img {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/ItIGUT2WmQXviPL0d-p6lCslkag=/0x0:6000x4000/1200x800/filters:focal(2322x0:3282x960)/cdn.vox-cdn.com/uploads/chorus_image/image/73617640/2148688576.0.jpg');
+}
+
+.ListaNoticias:nth-child(5) .img {
+    background-image: url('https://www.ole.com.ar/2024/09/25/1zlPo6ih2_720x0__1.jpg');
+}
+
+.texto .titulo p {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
